@@ -20,18 +20,21 @@ export default function Hero() {
       >
         <img
           src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
-          className="w-full h-full object-cover"
+          alt="Психологическая лаборатория"
+          className="w-full h-full object-cover brightness-50"
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs uppercase tracking-[0.4em] mb-6 opacity-60">Наука о поведении</p>
+        <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight mb-8 leading-none">
+          БИХЕВИОРИЗМ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-base md:text-xl max-w-2xl mx-auto opacity-80 leading-relaxed font-light">
+          Направление в психологии, утверждающее что всё поведение — это реакция на стимулы. 
+          Ни сознание, ни эмоции — только наблюдаемые факты.
         </p>
+        <div className="mt-10 w-px h-16 bg-white opacity-40 mx-auto"></div>
       </div>
     </div>
   );
